@@ -13,7 +13,6 @@
       data: data_array,
       filter_by: data.filter_by
     };
-    console.log(options);
     var filterBy = {
       days: function days(arr, _days) {
         var last_week = getDate.days(_days),
